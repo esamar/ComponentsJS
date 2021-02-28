@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Elements</title>
+    <style>
+
+        .item-rnee{
+            --first-border-radius: 5px;
+            --last-border-radius: 5px;
+            /* display: inline-block; */
+            margin:30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <check-button class='item-rnee' id='id_check1' value=0></check-button>
+    <check-button class='item-rnee' id='id_check2' value=1></check-button>
+    <check-button class='item-rnee' id='id_check3' value=3></check-button>
+    <check-button class='item-rnee' id='id_check4' value=1></check-button>
+    <check-button class='item-rnee' id='id_check5' value=3></check-button>
+
+    <script type='module' src='./checkbutton.js'> </script>
+
+</body>
+
+</html>
